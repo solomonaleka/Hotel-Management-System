@@ -1,0 +1,434 @@
+*{ 
+  margin: 0;
+  padding: 0;
+}
+body{ 
+  font: normal 80% Arial, Helvetica, sans-serif;
+  font-family: "Times New Roman";
+  background: #ccc url(../images/body_back.jpg) repeat;
+  background-attachment: fixed;
+  width:900px;
+}
+p{
+  color: black;
+  line-height: 1.7em;
+  font-size:18px;
+  font-family: "Times New Roman";
+}
+h2{ 
+  font: normal 165% Arial, Helvetica, sans-serif;
+  color:maroon;
+}
+h3{ 
+  font: normal 145% Arial, Helvetica, sans-serif;
+  color:maroon;
+}
+ul{ 
+  margin: 2px 0 22px 30px;
+  line-height: 1.7em;
+  font-style: normal;
+  font-size: 100%;
+}
+#main, #header,#menubar, #site_content, #footer{
+  margin-left: auto; 
+  margin-right: auto;
+}
+#main{
+  width: 1150px;
+  margin-left:50px;
+  border-radius: 25px;
+  background-color:ghostwhite;
+  border: 3px dotted maroon;
+} 
+#main_index{
+  width:1150px;
+  height: auto;
+  margin-left:50px;
+  border-radius: 25px;
+  background: #ccc url(../images/background3.png) repeat;
+  border: 3px dotted maroon;
+}  
+#header{ 
+  height: 120px;
+  background: #ccc url(../images/background1.jpg) repeat;
+  background-attachment: fixed;
+  border-radius: 25px;
+  }
+#welcome{
+  float: left;
+  height: 50px;
+  margin-left: 240px;
+  padding-left: 20px;
+  background: transparent;}   
+#welcome_slogan{
+  width: 880px;
+  float: left;
+  height: 50px;
+  margin-left: 260px;
+  padding-left: 20px;
+  background: transparent;}      
+#welcome h1{ 
+  font: normal 300% Arial, Helvetica, sans-serif;
+  letter-spacing: -3px;
+  text-shadow: 1px 1px #57B442;
+  color: #6A5ACD;
+}
+#welcome_slogan h1{ 
+  font: normal 200% Arial, Helvetica, sans-serif;
+  letter-spacing: -2px;
+  text-shadow: 1px 1px #57B442;
+  color: #6A5ACD;
+}
+
+/* styling the menu item list */
+#menu_container_admin{ 
+  height: 40px;
+  width:798px;
+  background-color:maroon;
+  margin-left:170px;
+  margin-top:30px;
+  }
+  #menu_container_user{ 
+  height: 40px;
+  width:798px;
+  background-color:maroon;
+  margin-left:170px;
+  margin-top:30px;
+  }   
+ul {
+  margin:0px;
+  padding:0px;
+  list-style:none;
+}
+ul li {
+  float:left;
+  width:130px;
+  height:40px;
+  background-color:black;
+  border-radius: 5px;
+  margin-top:auto;
+  opacity: 0.9;
+  line-height:40px;
+  text-align: center;
+  font-size:18px;
+  margin-right:3px;
+}
+ul li a {
+  text-decoration:none;
+  color:white;
+  display:black;
+}
+ul li:hover {
+  background-color:green;
+}
+
+/* styling the menu item list */
+#site_content{ 
+  width: 940px;
+  overflow: hidden;
+  margin: 0 auto;}   
+.content_container_ad { 
+  width: 440px;
+  padding: 5px;
+  margin-left: 10px;
+  float: left;
+}
+.content_container_top { 
+  width: 285px;
+  padding: 5px;
+  margin-left: 10px;
+  float: left;
+}
+.content_container_admin { 
+  width: 440px;
+  padding: 5px;
+  margin-left: 10px;
+  float: left;
+}
+.content_container_index { 
+  width: 240px;
+  padding: 5px;
+  margin-left: 35px;
+  border:2px solid #EEE8AA;
+  border-radius:10px;
+  float: left;
+}
+  .button_small {
+    background-color: #4CAF50;
+    border-radius:15px;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 65px;
+  }
+  #footer_container{
+  height: 60px;
+  margin-top: 30px;
+  background: #ccc url(../images/background3.png) repeat;
+  background-attachment: fixed;
+  border-radius: 25px;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;} 
+#footer{
+  height: 20px;
+  padding-top: 20px;
+  text-align: center; 
+  background: transparent;
+  }
+  #loginContainer {
+font-family: "Times New Roman";
+position:relative;
+border-radius: 25px;
+width:450px;
+height:auto;
+background-color:lemonChiffon;
+border: 3px dotted maroon;
+margin-left:320px;
+margin-right:auto;
+}
+#form-group{
+font-family: verdana,serif;
+font-size: 17px;
+width:400px;
+height:50px;
+margin-left:auto;
+margin-right:auto;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid maroon;
+    border-radius: 4px;
+    background: #ccc url(../images/background2.jpg) repeat;
+    background-attachment: fixed;
+    color: white;
+}
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid maroon;
+    border-radius: 4px;
+    background: #ccc url(../images/background2.jpg) repeat;
+    background-attachment: fixed;
+    color: white;
+}
+input[type=date] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid maroon;
+    border-radius: 4px;
+    background: #ccc url(../images/background2.jpg) repeat;
+    background-attachment: fixed;
+    color: white;
+}
+input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid maroon;
+    border-radius: 4px;
+    background: #ccc url(../images/background2.jpg) repeat;
+    background-attachment: fixed;
+    color: white;
+}
+input[type=text]:focus {
+    border: 2px solid blue;
+}
+input[type=password]:focus {
+    border: 2px solid blue;
+}
+input[type=date]:focus {
+    border: 2px solid blue;
+}
+input[type=number]:focus {
+    border: 2px solid blue;
+  }
+input[type=submit]{
+  background: #ccc url(../images/background2.jpg) repeat;
+    background-attachment: fixed;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    }
+    #registrationContainer {
+font-family: verdana,serif;
+position:relative;
+border-radius: 25px;
+width:450px;
+border: 3px dotted maroon;
+height:auto;
+margin-left:auto;
+margin-right:auto;
+}
+#bookingContainer {
+font-family: verdana,serif;
+position:relative;
+border-radius: 25px;
+width:450px;
+border: 3px dotted maroon;
+height:auto;
+margin-left: 230px;
+}
+#contactContainer {
+font-family: verdana,serif;
+position:relative;
+border-radius: 25px;
+width:450px;
+border: 3px dotted maroon;
+height:auto;
+margin-left: 230px;
+}
+#new_hotel_container {
+font-family: verdana,serif;
+position:relative;
+border-radius: 25px;
+width:450px;
+border: 3px dotted maroon;
+height:auto;
+margin-left: 230px;
+margin-right:auto;
+}
+#country_city_data_booking {
+font-family: verdana,serif;
+position:relative;
+border-radius: 25px;
+height:auto;
+margin-left: 210px;
+}
+select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background: #ccc url(../images/background2.jpg) repeat;
+    background-attachment: fixed;
+    color: white;
+}
+#result_set_user_details_admin {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:110px;
+}
+#result_set_user_details_user {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:220px;
+}
+#result_set_city_details {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left: 360px;
+}
+#result_set_room_details_admin {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:200px;
+}
+#result_set_comment_details_admin {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left: 160px;
+}
+#result_set_comment_details_user {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left: 250px;
+}
+#result_set_booking_details_admin {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left: 120px;
+}
+#result_set_reservation_details {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left: 190px;
+}
+#result_set_booking_details_user {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left: 160px;
+}
+
+#result_set_login_details {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left: 240px;
+}
+#result_set_hotel_details {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:190px;
+}
+#result_set_commission_details_admin {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:105px;
+}
+#result_set_commission_details_user {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:110px;
+}
+#result_set_room_details_user {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:240px;
+}
+#result_set_room_details_admin {
+font-family: verdana,serif;
+position:relative;
+width:450px;
+height:auto;
+margin-left:240px;
+}
+th {
+height: 50px;
+text-align: left;
+border-bottom: 2px solid orange;
+}
+td {
+height: 50px;
+vertical-align: bottom;
+border-bottom: 2px solid orange;
+}
+tr:hover { 
+background-color: maroon;
+}
